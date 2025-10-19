@@ -1,7 +1,7 @@
 {
 	"name": "Node.js & TypeScript",
 	// More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/dev-containers/typescript-node:1-20-bookworm",
+	"image": "mcr.microsoft.com/dev-containers/typescript-node:20-bookworm",
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install",
 	// Configure tool-specific properties.
