@@ -1,0 +1,17 @@
+{
+	"name": "Node.js & TypeScript",
+	// More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/dev-containers/typescript-node:1-20-bookworm",
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "npm install",
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"dbaeumer.vscode-eslint"
+			]
+		}
+	}
+}
